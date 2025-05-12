@@ -1,0 +1,33 @@
+# config/packages/sylius_admin/grids/pickup_point.yaml
+grids:
+    app_pickup_point:
+        driver:
+            name: doctrine/orm
+            options:
+                class: App\Entity\Shipping\PickupPoint
+        fields:
+            name:
+                type: string
+                label: sylius.ui.name
+            address:
+                type: string
+                label: sylius.ui.address
+            active:
+                type: boolean
+                label: sylius.ui.enabled
+        filters:
+            search:
+                type: string
+                options:
+                    fields: [name, address]
+        actions:
+            main:
+                create:
+                    type: create
+                delete:
+                    type: delete
+            item:
+                update:
+                    type: update
+                delete:
+                    type: delete

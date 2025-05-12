@@ -1,0 +1,14 @@
+<svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Drapeau">
+<g clip-path="url(#clip0_1905_28925)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H24V18H0V0Z" fill="white"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H7.99875V18H0V0Z" fill="#00267F"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M16.001 0H23.9997V18H16.001V0Z" fill="#F31830"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1905_28925">
+<rect width="24" height="18" rx="2" fill="white"/>
+</clipPath>
+</defs>
+</svg>

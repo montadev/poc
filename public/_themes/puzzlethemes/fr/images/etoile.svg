@@ -1,0 +1,16 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="heart">
+<g id="Path" filter="url(#filter0_b_1976_45406)">
+<path d="M23.8337 9.60073C23.8337 11.2761 23.1904 12.8853 22.0416 14.0756C19.3973 16.8166 16.8325 19.6747 14.0894 22.3164C13.4606 22.9131 12.4632 22.8912 11.8615 22.2676L3.95856 14.0756C1.5698 11.5995 1.5698 7.602 3.95856 5.12587C6.3708 2.62541 10.3006 2.62541 12.7128 5.12587L13.0001 5.42362L13.2872 5.12604C14.4438 3.92654 16.0189 3.25 17.6644 3.25C19.3099 3.25 20.885 3.92648 22.0416 5.12587C23.1905 6.31632 23.8337 7.92541 23.8337 9.60073Z" fill="#BE0000" fill-opacity="0.55"/>
+<path d="M23.8337 9.60073C23.8337 11.2761 23.1904 12.8853 22.0416 14.0756C19.3973 16.8166 16.8325 19.6747 14.0894 22.3164C13.4606 22.9131 12.4632 22.8912 11.8615 22.2676L3.95856 14.0756C1.5698 11.5995 1.5698 7.602 3.95856 5.12587C6.3708 2.62541 10.3006 2.62541 12.7128 5.12587L13.0001 5.42362L13.2872 5.12604C14.4438 3.92654 16.0189 3.25 17.6644 3.25C19.3099 3.25 20.885 3.92648 22.0416 5.12587C23.1905 6.31632 23.8337 7.92541 23.8337 9.60073Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_1976_45406" x="-10.583" y="-9.5" width="47.167" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="6"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1976_45406"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1976_45406" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,421 @@
+@CHARSET "UTF-8";
+
+#it--header,
+#it--footer {
+	position: relative;
+}
+.it--wrapper,
+.pagecontainer {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pagecontainer {
+	min-width: 960px;
+	max-width: 1280px;
+}
+
+.it-clearfix {
+	clear: both;
+	overflow: hidden;
+}
+.it--logo {
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.it--banner {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+#it--content {
+	width: 100%;
+	overflow: hidden;
+}
+#it--content .left {
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#it--content .right {
+	float: right;
+	width: 40%;
+}
+
+@media only screen and (max-width:480px) {
+	.it--wrapper {
+		width: 100%;
+		padding: 0 !important;
+	}
+
+
+	.it--logo {
+		background-position: center 0;
+		width: 100%;
+	}
+	#it--content .left,
+	#it--content .right {
+		float: none;
+		width: auto;
+	}
+}
+
+.stBadge-accent,
+td#CentralArea div.v4stabl,
+td#CentralArea span.pdmt:first-child,
+.r3_t, .r3_t b, .r3_bl, .r3_bl b,
+.cmpBr,
+span.pdmt img,
+span.pdmt .label,
+.itemseparator,
+.mi {
+    display: none;
+}
+
+table.v4clp li {
+	padding-top: 0;
+}
+
+table.pgbc {
+	border: none;
+	background: none;
+}
+
+table.pgbc,
+td#CentralArea div.dynpg,
+.r3_cm,
+.rs-pview {
+	padding: 0 !important;
+}
+
+.it--slogan {
+	font-size: 150% !important;
+}
+
+@CHARSET "UTF-8";
+
+@media only screen and (max-width:1150px) {
+	.grid td.gallery {
+		width: 30.4% !important;
+	}
+}
+
+@media only screen and (max-width:480px) {
+
+	.it--logo {
+		background-position: center !important;
+	}
+
+	.it--logo,
+	#it--footer .it--logo  {
+		width: 100% !important; /*Hallo Hendrik!*/
+		height: 70px !important;
+		float: none !important;
+		position: relative !important;
+		margin-bottom: 20px;
+		background-position: center !important;
+	}
+	#it--header .it--slogan {
+		position: relative !important;
+		left: auto !important;
+		top: auto !important;
+		text-align: center;
+	}
+
+	#it--logo {
+		background-position: center !important;
+	}
+
+	#it--content .image {
+		margin-top: 0 !important;
+	}
+
+	#it--footer .it--description {
+		width: 100% !important;
+		text-align: center;
+	}
+
+	body {
+		margin: 0;
+		padding: 3%;
+	}
+
+	#it--content .left {
+		margin-right: 0;
+	}
+}
+
+body {
+    background: #f8f8f8;
+}
+
+.it--slogan:before {
+content: "der Puzzle-Online-Shop";
+}
+.it--description:before {
+content: "DAS GRÖSSTE PUZZLESORTIMENT IN DEUTSCHLAND UND EUROPA";
+}
+.it--logo {
+background-image: url(https://www.planet-puzzles.com/images/e-bay-logo.png);
+}
+.it--banner {
+background-image: url();
+}
+
+.it--wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 30px;
+}
+#it--header .it--wrapper,
+#it--footer .it--wrapper {
+border-top: solid 10px #ff6600;
+}
+#it--header .it--wrapper {
+    padding-bottom: 20px;
+    min-height: 100px;
+}
+
+.it--logo {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding-left: 20px;
+    background-position: 20px center;
+    background-size: auto 75%;
+}
+
+#it--header .it--slogan {
+    position: absolute;
+    left: 300px;
+    top: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: -10px;
+}
+#it--content .title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.it--banner {
+    height: 350px;
+    display: block;
+}
+
+#it--content .attributes table {
+    width: 100%;
+    text-align: left;
+    font-size: 90%;
+}
+
+#it--content .attributes th,
+#it--content .attributes td {
+    padding: 2px;
+}
+#it--content .attributes th {
+    background: #f2f2f2;
+}
+#it--content .attributes td {
+    border-bottom: 1px solid #ddd;
+}
+#it--content .attributes tr td:first-child {
+    width: 60%;
+}
+#it--content .attributes tr:last-child td {
+    border: none;
+}
+
+#it--content .image {
+    margin-top: 70px;
+}
+#it--content .image img {
+    max-width: 100%;
+    min-width: 90%;
+}
+#it--footer .it--logo {
+    float: right;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 5px;
+    background-position: right center;
+}
+#it--footer .it--slogan {
+    display: none;
+}
+#it--footer .it--description {
+    margin-top: 20px;
+    width: 50%;
+    font-size: 80%;
+}
+
+.pagecontainer > table {
+    padding: 20px;
+}
+table.v4acpcont {
+    background: #fff;
+    margin-bottom: 0;
+    padding: 10px 20px 20px;
+border-top: 2px solid #ff6600;
+}
+
+.pagecontainer .it--logo {
+    background-color: rgba(0,0,0,.2);
+}
+.pagecontainer #it--header .it--slogan {
+    width: 25%;
+    left: 20px;
+}
+.v4acp_head .v4accent,
+.v4mid .ttl {
+    display: none;
+}
+table.v4midBox{
+    border: none;
+}
+table.v4acp tr.v4acp_head td.v4title {
+    background: #fff;
+    color: #000;
+    display: block;
+    padding: 5px 0 !important;
+}
+table.v4midBox tr.v4acp_mid td.v4mid {
+    background: #fff;
+    padding: 0;
+}
+table.v4clp td ul {
+    margin: 0;
+}
+body a:link, body .g-novisited a:visited,
+.v4mid a {
+    color: #000;
+    font-weight: normal;
+}
+table.v4clp td {
+    padding-top: 0;
+}
+.v4mid li {
+    margin: 2px 0 !important;
+    list-style: none;
+}
+.v4acp font {
+    color: #000;
+}
+.r3_t i, .r3_bl i,
+.r3_hm, .r3_c, .r3_s {
+    border: none;
+}
+.ctrlbr {
+    border: none;
+    padding: 10px 0;
+    margin-top: -1.5em;
+}
+td#CentralArea span.pdmt {
+    float: right;
+    padding: 0;
+}
+span.pdmt .cur {
+    color: #000;
+border: 1px solid #ff6600;
+height: 20px;
+line-height: 20px;
+font-weight: normal;
+display: inline-block;
+padding: 0 5px;
+}
+
+.grid td.left,
+.rs_box,
+td#CentralArea div.dynpg {
+    border: none;
+}
+span.pdmt:after {
+    display: inline-block;
+    content: '⌄';
+    width: 22px;
+    height: 22px;
+    line-height: 19px;
+background: #ff6600;
+color: #fff;
+text-align: center;
+font-weight: normal;
+vertical-align: top;
+font-size: 14px;
+}
+.fpcc .countClass {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table.gallery td.details {
+    border-top: 1px solid #ddd;
+}
+
+.grid {
+    text-align: right;
+}
+
+.grid td.gallery {
+    display: inline-block;
+    padding: 7px 0 7px 20px;
+    width: 31%;
+    vertical-align: top;
+    position: relative;
+    text-align: left;
+}
+table.gallery {
+    height: 330px;
+    background: #fff;
+    position: relative;
+    display: block;
+}
+.grid td.gallery:first-child {
+    margin-left: 0;
+}
+
+table.gallery td.picture div.image a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 10;
+}
+
+.ttl.g-std {
+    padding: 5px 0;
+}
+.bin.g-b, .bid.g-b {
+    font-size: 120%;
+    font-weight: bold;
+    position: absolute;
+    text-align: right;
+    width: 40%;
+    right: 15px;
+    bottom: 10px;
+}
+
+.bin {
+    width: 30%;
+    position: absolute;
+    right: 0px;
+}
+
+.ttl.g-std a {
+    color: #000;
+    font-size: 110%;
+}
+.picture.camera .image {
+    width: 100% !important;
+}
+.picture.camera .image img {
+    max-width: 100%;
+    max-height: 150px;
+}

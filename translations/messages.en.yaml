@@ -1,0 +1,7 @@
+cart:
+  summary:
+    one: '1 Product : %amount%'
+    many: '%count% Products : %amount%'
+sylius.ui.apply_coupon.custom : ok    
+app.ui.price_visibility: Prix Membre
+app.ui.suppliers: Fournisseur
