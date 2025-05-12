@@ -1,0 +1,16 @@
+cart:
+  # summary:
+  #   one: '1 Produit : %amount%'
+  #   many: '%count% Produits : %amount%'
+  # recap:
+  #   one: '1 Produit '
+  #   many: '%count% Produits'
+
+sylius.ui.apply_coupon.custom : ok
+sylius.ui.apply_recap : Récapitulatif
+sylius.ui.checkout.custom: Passer à la livraison
+sylius.ui.items_total.custom: Total (Hors livraison)
+sylius.ui.shipping_estimated_cost.custom: Livraison à partir de
+app.ui.price_visibility: Prix Membre
+app.ui.suppliers: Fournisseur
+

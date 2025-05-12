@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <g filter="url(#filter0_b_7881_24586)">
+    <g filter="url(#filter1_b_7881_24586)">
+      <path d="M21.9999 8.86246C21.9999 10.409 21.4061 11.8944 20.3457 12.9931C17.9047 15.5233 15.5373 18.1615 13.0052 20.6C12.4248 21.1508 11.504 21.1306 10.9487 20.5549L3.65363 12.9931C1.44863 10.7074 1.44863 7.01747 3.65363 4.73182C5.88032 2.4237 9.50782 2.4237 11.7345 4.73182L11.9996 5.00666L12.2646 4.73197C13.3323 3.62475 14.7863 3.00024 16.3052 3.00024C17.8241 3.00024 19.278 3.62469 20.3457 4.73182C21.4062 5.83069 21.9999 7.31601 21.9999 8.86246Z" fill="#292929" fill-opacity="0.22"/>
+      <path d="M21.9999 8.86246C21.9999 10.409 21.4061 11.8944 20.3457 12.9931C17.9047 15.5233 15.5373 18.1615 13.0052 20.6C12.4248 21.1508 11.504 21.1306 10.9487 20.5549L3.65363 12.9931C1.44863 10.7074 1.44863 7.01747 3.65363 4.73182C5.88032 2.4237 9.50782 2.4237 11.7345 4.73182L11.9996 5.00666L12.2646 4.73197C13.3323 3.62475 14.7863 3.00024 16.3052 3.00024C17.8241 3.00024 19.278 3.62469 20.3457 4.73182C21.4062 5.83069 21.9999 7.31601 21.9999 8.86246Z" stroke="white" stroke-width="1.33333" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_b_7881_24586" x="-5.33333" y="-5.33333" width="34.6667" height="34.6667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.66667"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7881_24586"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7881_24586" result="shape"/>
+    </filter>
+    <filter id="filter1_b_7881_24586" x="-14.6667" y="-13.6664" width="53.3333" height="51.3333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="8"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7881_24586"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7881_24586" result="shape"/>
+    </filter>
+  </defs>
+</svg>

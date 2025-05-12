@@ -1,0 +1,24 @@
+# @see https://github.com/Sylius/SyliusResourceBundle/blob/master/docs/index.md
+sylius_resource:
+    # Override default settings
+    #settings:
+
+    # Configure the mapping for your resources
+    mapping:
+        paths:
+            - '%kernel.project_dir%/src/Entity'
+
+    # Configure your resources
+    resources:
+        #app.book:
+            #classes:
+                #model: App\Entity\Book
+        app.pickup_point:
+            classes:
+                model: App\Entity\Shipping\PickupPoint
+                form: App\Form\Type\Shipping\PickupPointType
+            driver: doctrine/orm
+        
+        app.sylius_address:
+            classes:
+                model: App\Entity\Addressing\Address

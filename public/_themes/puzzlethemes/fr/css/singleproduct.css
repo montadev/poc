@@ -1,0 +1,146 @@
+.thumb-img {
+    height: 80px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .categorie_stock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  label[for="sylius_shop_add_to_cart_cartItem_quantity"] {
+    display: none;
+  }
+
+  form[name="sylius_shop_add_to_cart"] {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+  }
+
+
+  #add-to-cart-button{
+    border: var(--Orange, #FF780F);
+    float: right;
+    display: flex;
+    padding: 18px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    background: var(--Orange, #FF780F);
+    box-shadow: 0px 2px 4px 0px rgba(69, 21, 5, 0.09);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width:166%;
+}
+
+#sylius_shop_add_to_cart_cartItem_quantity{
+  width:40%;
+  height:58px;
+  border-radius: 9px;
+}
+
+.single-page .icon-box {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoLabelsingleproduct{
+  color: #292929;
+    font-size: 14px;
+    font-weight: 500;
+}
+.expedition-single-product{
+  color: var(--Smooth-Grey-950, #292929);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 8px;
+}
+.expedition-info{
+  font-weight: 300; 
+}
+.content-single-product{
+  background-color: #FAFAFA;
+}
+
+#accordionFlushExample .accordion-item{
+  background-color: #FAFAFA;
+}
+.libelle-produit{
+  font-weight: 600; 
+}
+.tx-exped2{
+  margin-left:0px;
+}
+#offcanvasCart{
+  z-index:3000;
+}
+.slider-home{
+  padding-top:120px;
+}
+.specCaracteristiqueProduit{
+  text-align: center;
+}
+
+.enstock-single-product{
+  border-radius: 10px;
+  background:#035D0C;
+  width: 10px;
+  height: 10px;
+}
+
+.btn-sec-single-product{
+  color: var(--Smooth-Grey-950, #292929);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  height: 53px;
+  padding: 2px 22px 2px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 6px;
+  border: 1px solid var(--Smooth-Grey-950, #292929);
+  cursor: pointer;
+  max-width: 255px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.content-together-products > .btn-sec-single-product {
+  border-radius: 6px;
+  border: 1px solid #292929;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 10px 18px 22px;
+  background-color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+sylius_admin:
+    resource: "@SyliusAdminBundle/Resources/config/routing.yml"
+    prefix: '/%sylius_admin.path_name%'
+
+# config/routes/sylius_admin.yaml
+app_admin_pickup_point:
+    resource: |
+        alias: app.pickup_point
+        section: admin
+        templates: "@SyliusAdmin/Crud"
+        grid: app_pickup_point
+        vars:
+            all:
+                subheader: 'Manage pickup points'
+    type: sylius.resource
+    prefix: /admin

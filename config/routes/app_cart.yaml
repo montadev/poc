@@ -1,0 +1,12 @@
+# config/routes/app_cart.yaml
+app_cart_item_remove:
+    path: /{_locale}/cart/items/{id}
+    methods: [DELETE]
+    defaults:
+        _controller: App\Controller\CartItemController::remove
+
+app_cart_item_update_quantity:
+    path: /{_locale}/cart/items/{id}/quantity
+    methods: [POST]
+    defaults:
+        _controller: App\Controller\CartItemController::updateQuantity

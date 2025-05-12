@@ -1,0 +1,10 @@
+<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="rhombus" clip-path="url(#clip0_1607_38194)">
+<path id="Polygon" d="M6.50519 1.57835C6.77855 1.30498 7.22177 1.30498 7.49514 1.57835L12.9219 7.00507C13.1952 7.27843 13.1952 7.72165 12.9219 7.99502L7.49514 13.4217C7.22177 13.6951 6.77855 13.6951 6.50519 13.4217L1.07847 7.99502C0.805104 7.72165 0.805104 7.27843 1.07847 7.00507L6.50519 1.57835Z" stroke="#FF780F" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1607_38194">
+<rect width="14" height="14" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
